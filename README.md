@@ -97,15 +97,16 @@ docs/
 ## Build & Run
 
 ```bash
-# Build all examples
+# Build the library
 make
 
 # Run XOR trainer
-./examples/xor
+make xor
+./xor
 
 # Run MNIST classification
-./examples/mnist
-./build/xor
+make mnist
+./mnist
 ```
 
 ## 📈 Documentation
