@@ -85,12 +85,12 @@ src/
 
 examples/
   ├── xor.cpp         Binary classification on XOR problem
-  ├── mnist.cpp       10-class classification on MNIST digits
+  ├── mnist.cpp       10-class classification on MNIST digits (coming soon, no db and data parser yet)
 
 docs/
   ├── theory.md       Mathematical foundations and algorithms used
-  ├── results.md      Benchmarking and empirical analysis
-  └── architecture.md    (from sorting kernel structure)
+  ├── results.md      Benchmarking analysis
+  └── architecture.md CPU and GPU(coming soon) architecture-based optimization explanations
 
 ```
 
@@ -109,13 +109,13 @@ make mnist
 ./mnist
 ```
 
-## 📈 Documentation
+## Documentation
 
 - [Architecture](docs/architecture.md) - System design and optimization strategy
 - [Theory](docs/theory.md) - Mathematical foundations and algorithms used
 - [Benchmark](docs/results.md) - Benchmarking and empirical analysis
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Language**: C++11
 - **Build**: CMake, Make
