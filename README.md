@@ -1,4 +1,4 @@
-# High-Performance Neural Network Framework
+# Neural Network Framework
 
 **Custom C++ Neural Network Implementation with Performance Optimization**
 
@@ -6,7 +6,7 @@
 
 ## Overview
 
-This project provides a from-scratch C++ neural network implementation focused on linear algebra optimization and CPU architecture tuning.
+This project provides a from-scratch C++ neural network implementation focused on linear algebra optimization and CPU/GPU(coming soon) architecture tuning.
 
 ## Core Components
 
